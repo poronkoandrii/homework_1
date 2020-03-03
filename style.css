@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.middle {
+  width: 1000px;
+  margin: 0 auto;
+}
+.middle > .photo {
+  border-radius: 10px;
+  float: left;
+}
+.language {
+  float: right;
+}
+.language:hover {
+  border-radius: 50px;
+  transition-duration: 1s;
+}
+.heart:hover {
+  width: 150px;
+}
+h1,
+li {
+  margin-left: 315px;
+  margin-top: 11px;
+}
